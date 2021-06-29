@@ -29,7 +29,7 @@ export async function handleRequest(request: Request): Promise<Response> {
     type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
     data: {
       flags: InteractionResponseFlags.EPHEMERAL,
-      content: 'this is coming from slash commands owo',
+      content: 'this is coming from a cloudflare worker!!',
     },
   })
 }
